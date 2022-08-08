@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+body{
+   background: url("../img/pexels-jiarong-deng-1034662.jpg") no-repeat center;
+   background-size: cover;
+   display: flex;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+#main-content{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#traffic-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+.btns-click{
+    width: 7vw;
+    height: 7vh;
+    background-color: #24242494;
+    border: 2px solid #ffffff42;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: bold;
+}
+#red:hover{
+    background-color: red;
+}
+#yellow:hover{
+    background-color: #ffb100;
+}
+#green:hover{
+    background-color: green;
+}
+#automatic:hover{
+    background-color: #6c0080;
+}
+#traffic{
+    width: 80vh;
+}
